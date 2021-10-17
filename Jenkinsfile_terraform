@@ -5,8 +5,8 @@ pipeline {
         
         stage('Checkout') {
             steps {
-                git branch: 'main', url: 'git@github.com:fazil9975/devops14-jenkins-public.git'
-            }
+                git branch: 'main', url:'https://github.com/fazil9975/devops14-jenkins-public.git'            
+        }
         }
 
         stage('TFInit') {
